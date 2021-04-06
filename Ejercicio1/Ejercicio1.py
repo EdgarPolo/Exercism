@@ -1,11 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  5 17:45:45 2021
-
-@author: Edgar_Polo
-"""
-# Ejercicio # 1
 def abbreviate(words, acronimo=""):
+    """
+    Este Metodo Convierte una frase a su acrónimo.
+
+    Parameters
+    words : Palabra a abreviar
+
+    Returns
+    Retorna las siglas de las iniciales de la frase ingresada
+    """
 
     if "'" in words:
         words = words.replace("'", "")
